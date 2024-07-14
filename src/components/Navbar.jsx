@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 const navbar = () => {
   return (
-    <nav className="flex items-center justify-between mr-10">
+    <nav className="flex items-center justify-between">
       <div className="flex flex-shrink-0 items-center">
         <img className="w-32" src={logo} alt="logo" />
       </div>
