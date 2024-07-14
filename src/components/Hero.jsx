@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="flex flex-wrap mx-12">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
-            <h1 className="pb-10 text-4xl font-thin tracking-tight lg:mt-28 lg:text-6xl">
+            <h1 className="pb-10 text-3xl font-thin tracking-tight lg:mt-28 lg:text-6xl">
               Niladri Karmakar
             </h1>
             <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
@@ -19,7 +19,7 @@ const Hero = () => {
               {HERO_CONTENT}
             </p>
             <a
-              className="text-purple-700 text-lg"
+              className="text-purple-700 text-lg mb-4"
               href="https://niladrikarmakar1.hackerresume.io/f4385a1a-b1c5-4a33-96bb-db56f0ae83d9"
             >
               View Resume
