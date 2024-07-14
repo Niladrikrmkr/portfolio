@@ -12,10 +12,10 @@ const Hero = () => {
             <h1 className="pb-10 text-3xl font-thin tracking-tight lg:mt-28 lg:text-6xl">
               Niladri Karmakar
             </h1>
-            <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
+            <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tighter text-transparent font-semibold">
               Front-end Devloper
             </span>
-            <p className="my-2 max-w-xl py-4 font-light tracking-tight">
+            <p className="my-2 max-w-xl py-4 font-light tracking-tight text-sm lg:text-base">
               {HERO_CONTENT}
             </p>
             <a
@@ -28,7 +28,7 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-10">
           <div className="flex justify-center">
-            <img className="rounded-full" src={profilePic} alt="" />
+            <img className="rounded-full" src={profilePic} alt="profilepic" />
           </div>
         </div>
       </div>
