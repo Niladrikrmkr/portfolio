@@ -3,6 +3,7 @@ import { CgFileDocument } from "react-icons/cg";
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/WhatsAppImage.jpg";
 import { motion } from "framer-motion";
+import resume from "../assets/Resume(1).pdf"
 
 const container = (delay) => ({
   hidden: {x:-100, opacity:0},
@@ -45,7 +46,8 @@ const Hero = () => {
               initial="hidden"
               animate="vissible"
               className="text-purple-700 text-lg mb-4"
-              href="https://niladrikarmakar1.hackerresume.io/f4385a1a-b1c5-4a33-96bb-db56f0ae83d9"
+              href={resume}
+              target="_blank"
             >
               View Resume
             </motion.a>

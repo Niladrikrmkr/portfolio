@@ -1,6 +1,5 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
@@ -11,11 +10,32 @@ export const ABOUT_TEXT = `I am a dedicated and versatile web developer with a p
 
 export const PROJECTS = [
   {
+    title: "Google Gemini Clone",
+    image: project6,
+    description:
+      "A clone of Gemini AI by Google using React js, Tailwind css and google generative AI.",
+    technologies: ["React", "Tailwind"],
+    git:"https://github.com/Niladrikrmkr/Gemini",
+    link:"https://gemini-clone.netlify.app/"
+  },
+  {
     title: "Notes Application",
     image: project1,
     description:
       "Notes application using NodeJS & ExpressJS and Tailwind CSS for the frontend. It also comes with a file rename feature.",
     technologies: ["Tailwind", "Node.js", "Express.js"],
+    git:"https://github.com/Niladrikrmkr/notes_app",
+    link:"https://onlynotesss.netlify.app/"
+  },
+  
+  {
+    title: "Text to Speech Converter",
+    image: project5,
+    description:
+      "Made a Text to Speech Converter using HTML, CSS & JavaScript.It can convert any written text into all the voices avaliable in the device with help of JS.",
+    technologies: ["HTML", "CSS", "Javascript"],
+    git:"https://github.com/Niladrikrmkr/Speech_Converter",
+    link:"https://text-to-talk.netlify.app/"
   },
   {
     title: "Instagram UI",
@@ -23,34 +43,17 @@ export const PROJECTS = [
     description:
       "A functional instagram interface using HTML, CSS & JavaScript.",
     technologies: ["HTML", "CSS", "Javascript"],
+    git:"https://github.com/Niladrikrmkr/instagram",
+    link:"https://myinstaaa.netlify.app/"
   },
   {
-    title: "Todo List App",
-    image: project3,
-    description: "A Todo List app using ReactJS and Tailwind CSS.",
-    technologies: ["React", "Tailwind"],
-  },
-
-  {
-    title: "Weather Application",
+    title: "Animated Weather Application",
     image: project4,
     description:
       "Made a Weather application using HTML, CSS, JavaScript and a weather API. It can change the background according to the city name you type.",
     technologies: ["HTML", "CSS", "Javascript"],
-  },
-  {
-    title: "Text to Speech Converter",
-    image: project5,
-    description:
-      "Made a Text to Speech Converter using HTML, CSS & JavaScript.It can convert any written text into all the voices avaliable in the device with help of JS.",
-    technologies: ["HTML", "CSS", "Javascript"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project6,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "Tailwind"],
+    git:"https://github.com/Niladrikrmkr/Weather_App",
+    link:"https://know-the-weatherrr.netlify.app/"
   },
 ];
 

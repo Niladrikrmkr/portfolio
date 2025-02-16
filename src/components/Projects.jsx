@@ -1,6 +1,8 @@
 import React from "react";
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import git from "../assets/git2.png"
+import link from "../assets/link3.png"
 
 const Projects = () => {
   return (
@@ -33,7 +35,7 @@ const Projects = () => {
               transition={{duration:1}}
               className="w-full max-w-xl lg:w-3/4">
               <h6 className="mb-2 font-semibold">{project.title}</h6>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
+              <p className="mb-2 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
@@ -42,6 +44,8 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
+              <a className="inline-block size-6 py-1.5 ml-4" href={project.git} target="_blank"><img className="" src={git} alt="Github" /></a>
+              <a className="inline-block size-6 py-1.5 ml-2" href={project.link} target="_blank"><img className="" src={link} alt="link" /></a>
             </motion.div>
           </div>
         ))}
